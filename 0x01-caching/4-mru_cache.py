@@ -4,7 +4,7 @@ from collections import OrderedDict
 BaseCaching = __import__('base_caching').BaseCaching
 
 
-class LRUCache(BaseCaching):
+class MRUCache(BaseCaching):
     """Basic cache implementation"""
     def __init__(self):
         """Init of an instance"""
